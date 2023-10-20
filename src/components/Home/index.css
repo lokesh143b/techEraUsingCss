@@ -1,0 +1,44 @@
+.home-container {
+  height: 100vh;
+}
+
+.home-courses-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses-list-view {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.courses-list-item {
+  height: 120px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.courses-img {
+  width: 80px;
+  height: 80px;
+}
+
+.courses-name {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.link {
+  text-decoration: none;
+  color: #1e293b;
+}
